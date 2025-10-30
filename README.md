@@ -6,7 +6,7 @@ Create a custom data converter that converts data to Base64. See [encryption doc
 
 ## Code
 
-- `EncryptionCodec`: [encryption-codec.ts](./src/base64-codec.ts)
+- `Base64Codec`: [base64-codec.ts](./src/base64-codec.ts)
 - Data Converter: [data-converter.ts](./src/data-converter.ts)
 - Codec Server: [codec-server.ts](./src/codec-server.ts)
 
