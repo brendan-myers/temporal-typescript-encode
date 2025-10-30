@@ -4,7 +4,6 @@ import { getDataConverter } from './data-converter';
 import { example } from './workflows';
 
 async function run() {
-  // @@@SNIPSTART typescript-encryption-client
   const client = new Client({
     dataConverter: await getDataConverter(),
   });
@@ -17,7 +16,6 @@ async function run() {
 
   console.log(`Started workflow ${handle.workflowId}`);
   console.log(await handle.result());
-  // @@@SNIPEND
 }
 
 run().catch((err) => {
